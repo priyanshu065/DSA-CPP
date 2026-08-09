@@ -8,10 +8,10 @@ int main () {
     deque<int> d = {1,2,3,4,5};
 
     for (int val : d) {
-        cout << val << " ";
+        cout << val << " "; //1 2 3 4 5
     }
     cout << endl;
 
-    cout << d[2] << endl;
+    cout << d[2] << endl; // 3
     return 0;
 }
