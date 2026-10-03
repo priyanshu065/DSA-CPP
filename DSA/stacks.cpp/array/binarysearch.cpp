@@ -26,9 +26,9 @@ int main () {
     int odd[5] = {3,8,11,14,16};
 
     int evenindex = binarySerch(even, 6, 10);
-    int evenindex = binarySerch(odd, 14, 10);
+    int oddindex = binarySerch(odd, 14, 10);
 
-    cout <<  "index of 12 is " << evenindex;
-    cout <<  "index of 14 is " << oddindex;
+    cout <<  "index of 10 is " << evenindex << endl;
+    cout <<  "index of 14 is " << oddindex << endl;
     return 0;
 }
